@@ -1,3 +1,8 @@
+Projekto neišskaičiau į atskirus komponentus, kad būtų lengviau visą kodą skaityti
+Visas veikimas ir stilizavimas yra App.js ir App.css failuose
+Taip pat yra atskiras failas Debounce veikimui
+
+
 ### `yarn start`
 
 Runs the app in the development mode.\
