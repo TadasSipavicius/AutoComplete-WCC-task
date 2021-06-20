@@ -10,6 +10,7 @@ Pradiniai reikalavimai
 Dizainą įgyvendinti kuo panašesnį į pateiktą žemiau. Pikselių nematuosime, tačiau į centravimą ir bendrą išdėstymą atsižvelgsime.
 Stiliaus aprašus stenkitės išlaikyti tvarkingus, vengiant nereikalingų komandų.
 Paieškos langas turi leisti įvesti paieškos tekstą ir pateikti galimus variantus ( gali būti ir be API pajungimo, tiesiog statiniai duomenys)
+
 Papildomi reikalavimai
 Stilių aprašams naudoti modernius stiliaus įrankius kaip PostCSS ar SASS.
 Komponentas turi naudoti informaciją, gaunamą dinamiškai iš filmų duomenų API: GET: https://api.themoviedb.org/3/search/movie?api_key=**{api_raktas}**&language=en-US&query=**{paieškos_tekstas}**
@@ -17,6 +18,7 @@ Pasirinkus vieną iš rezultatų, komponento įvesties tekstas turi atsinaujinti
 Maksimalus rodomas dinaminės paieškos rezultatų kiekis - 8 filmų įrašai.
 Minimalus simbolių kiekis, aktyvuojantis dinaminę paiešką - 3. Jeigu ši sąlyga tenkinama, bet koks simbolio pakeitimas panaikina buvusius rezultatus ir iš naujo aktyvuoja dinaminę paiešką.
 Papildomas pliusas bus jeigu naudosite debounce funkciją apsisaugot nuo nereikalingų užklausų į filmų bazę. Taip pat papildomi taškai gali būt skiriami, jei padarysite error handling ar loadinimą.
+
 Instrukcijos
 Naudokite šią Github repozitoriją kaip pradinį užduoties tašką. Tai galite padaryti naudodami Github Fork funkciją.
 KAYAK WCC academy paskaitų projekte naudosime React.js, todėl rekomenduojame užduotį atlikti naudojant šią technologiją, tačiau šiam namų darbui technologijos nėra ribojamos ir galima pasirinkti savo nuožiūra. Galite naudoti create-react-app ar Angular CLI ir kitus bibliotekų aplinkos generatorius.
